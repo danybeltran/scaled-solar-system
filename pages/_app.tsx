@@ -1,5 +1,3 @@
-import { AtomicState } from 'atomic-state'
-import { FetcherConfig } from 'http-react-fetcher'
 import Head from 'next/head'
 import Script from 'next/script'
 import { Fragment } from 'react'
