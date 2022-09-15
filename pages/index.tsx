@@ -1,4 +1,3 @@
-
 const diameters = {
   sun: 1392700,
   mercury: 4879.4,
@@ -33,12 +32,10 @@ function toScale(planet: string) {
   return `${planetDiameter / 100}px`
 }
 
-
 export default function Index() {
- 
   return (
     <div
-      className='relative h-full'
+      className='relative h-full '
       style={{
         zoom: 0.1
       }}
@@ -51,7 +48,7 @@ export default function Index() {
           opacity: '25%'
         }}
       />
-      <div className='absolute top-0 left-0 h-auto overflow-y-scroll w-full overflow-auto flex items-center flex-col justify-center gap-y-[8000px]'>
+      <div className='absolute py-[32rem] top-0 left-0 h-auto overflow-y-scroll w-full overflow-auto flex items-center flex-col justify-center gap-y-[8000px]'>
         <img
           src='https://www.solarsystemscope.com/spacepedia/images/handbook/renders/sun.png'
           alt=''
